@@ -28,7 +28,7 @@
   (println "Done"))
 
 (defn -main [& args]
-  (speech/process-speech)
+  ;(speech/process-speech)
   (process-files settings))
 
 ;; (-main)
